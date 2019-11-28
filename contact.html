@@ -1,36 +1,41 @@
+
 <!DOCTYPE html>
 <html lang="en-GB">
-<head>
-  <meta charset="utf-8">
-  <meta name="generator" content="AlterVista - Editor HTML"/>
-  <link type="text/css" rel="stylesheet" href="css/style.css"/>
-  <link type="text/css" rel="stylesheet" href="css/contact-form.css"/>
-  <title>Home</title>
-</head>
 
+<head>
+    <meta charset="UTF-8">
+   <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	    <link rel="stylesheet" href="css/contact-form.css">
+</head>
 <body>
 <div class="nav">
-	<div class="Connie">
-	<ul>
-				<li><h1>Connie Selbie</h1></li>
-	</ul>			
-	</div>			
-	<ul>
+
+    <label for="show-menu" class="show-menu">Show Menu</label>
+    <input type="checkbox" id="show-menu" role="button">
+	
+	
+        <ul id="menu">
 				<li><a href="index.html">Home</a></li>
 				
 				<li><a href="portfolio.html">Portfolio</a></li>
 				
-				<li><a href="blog.html">Blog</a></li>
+				<li><a href="sketchbook.html">Sketchbook</a></li>
 				
 				<li><a href="about-me.html">About Me</a></li>
 
-				<li><a href="contact.html">Contact</a></li>	
-	</ul>
+				<li><a href="contact.html">Contact</a></li>			
+ 
+    </ul>
+
 </div>
+
 
   <div class="wrapper">
     <div class="form">
-      <h3>Contact Form</h3>
+      <h1>Contact Form</h1>
   <form action="/action_page.php" id="usrform">
   
 <p> 
@@ -38,19 +43,19 @@
     <input type="text" id="fname" name="your_name" placeholder="Your name..">
 </p>
 <p>
-    <label for="phone">Telephone</label>
+    <label for="phone">Phone Number</label>
     <input type="text" id="phone" name="phone" placeholder="Your phone number..">
 </p>
 <p>	
-    <label for="email">Email</label>
-    <input type="text" id="email" name="email" placeholder="Your email..">
+    <label for="email">Email Address</label>
+    <input type="text" id="email" name="email" placeholder="Your email address..">
 </p>
 <p>
-    <label for="company">Company</label>
-    <input type="text" id="company" name="company" placeholder="Your company.">
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" placeholder="subject...">
 </p>
 <p>	
-    <label for="comment">Comment</label>
+    <label for="comment">Message</label>
     <input type="text" id="comment" name="comment" placeholder="Your comment..">
 
 </p>

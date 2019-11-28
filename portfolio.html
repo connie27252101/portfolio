@@ -1,60 +1,68 @@
+
+
 <!DOCTYPE html>
 <html lang="en-GB">
-<head>
-  <meta charset="utf-8">
-  <meta name="generator" content="AlterVista - Editor HTML"/>
-  <link type="text/css" rel="stylesheet" href="css/style.css"/>
-  <title>Home</title>
-</head>
 
+<head>
+    <meta charset="UTF-8">
+   <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+	<link rel="stylesheet" href="css/contact-form.css">
+</head>
 <body>
 <div class="nav">
-	<div class="Connie">
-	<ul>
-				<li><h1>Connie Selbie</h1></li>
-	</ul>			
-	</div>			
-	<ul>
+
+    <label for="show-menu" class="show-menu">Show Menu</label>
+    <input type="checkbox" id="show-menu" role="button">
+	
+
+	
+        <ul id="menu">
 				<li><a href="index.html">Home</a></li>
 				
 				<li><a href="portfolio.html">Portfolio</a></li>
 				
-				<li><a href="blog.html">Blog</a></li>
+				<li><a href="sketchbook.html">Sketchbook</a></li>
 				
 				<li><a href="about-me.html">About Me</a></li>
 
-				<li><a href="contact.html">Contact</a></li>	
-	</ul>
+				<li><a href="contact.html">Contact</a></li>			
+ 
+    </ul>
+	
 </div>
-
 <div class="container">
 
-  <div class="item-a"><a href="portfolio/lego-root-Connie-Selbie/The-lego-group.html">
+  <div class="item-a"><a href="portfolio/The-lego-group.html">
 <img alt="W3Schools" src="img/mockups/lego.jpg">
 </a></div>
-  <div class="item-b"><a href="portfolio/desperados/home.html">
+  <div class="item-b"><a href="portfolio/desperados.html">
 <img alt="W3Schools" src="img/mockups/desperados.jpg">
 </a></div>
-  <div class="item-c"><a href="portfolio/bakery-website-Connie-Selbie/cupcake-delivery.html">
+  <div class="item-c"><a href="portfolio/cupcake-delivery.html">
 <img alt="W3Schools" src="img/mockups/bakery.jpg">
 </a></div>
 
 
 
   <div class="item-d">
-   <a href="portfolio/FinalVersion/index.html">
-<img alt="W3Schools" src="img/mockups/dog.jpg">
+   <a href="portfolio/dog.html">
+<img alt="W3Schools" src="img/mockups/dog.png">
 </a></div>
   <div class="item-e">
    <a href="https://www.spacedphotos07.com/">
-   <img alt="W3Schools" src="img/mockups/photography-website.JPG"> 
+	   <img alt="W3Schools" src="img/mockups/photography-website.jpg"> 
 </a></div>
   <div class="item-f">
-  <a href="portfolio/silver-note/Home.html">
-<img alt="W3Schools" src="img/mockups/silver-note.JPG">  
+  <a href="portfolio/silver-note.html">
+<img alt="W3Schools" src="img/mockups/silver-note.jpg">  
  </a></div>
 
 
+<!--
   <div class="item-g">
  <a href="portfolio/diegans/Home.html">
 <img alt="W3Schools" src="img/mockups/digans.JPG">
@@ -63,9 +71,41 @@
   <a href="portfolio/music/home.html">
 <img alt="W3Schools" src="img/mockups/music.jpg">
 </a></div>
-
+-->
 
 </div>
+  <div class="wrapper">
+    <div class="form">
+      <h1>Contact Form</h1>
+  <form action="/action_page.php" id="usrform">
+  
+<p> 
+    <label for="fname">Your Name</label>
+    <input type="text" id="fname" name="your_name" placeholder="Your name..">
+</p>
+<p>
+    <label for="phone">Phone Number</label>
+    <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+</p>
+<p>	
+    <label for="email">Email Address</label>
+    <input type="text" id="email" name="email" placeholder="Your email address..">
+</p>
+<p>
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" placeholder="subject...">
+</p>
+<p>	
+    <label for="comment">Message</label>
+    <input type="text" id="comment" name="comment" placeholder="Your comment..">
 
+</p>
+<p>
+    <input type="submit" value="Submit">
+</p>	
+	
+  </form>
+    </div>
+  </div>
 </body>
 </html>
